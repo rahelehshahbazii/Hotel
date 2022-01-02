@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pc\\Source\\Repos\\Projects  RelatdTo Working\\Hotel\\FinalHotel\\HotelFacilities.Core\\HotelFacilities.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pc\\Source\\Repos\\Projects  RelatdTo Working\\Hotel\\FinalHotel\\HotelFacilities.Core\\HotelFacilities.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Projects  RelatdTo Working\\Hotel\\FinalHotel\\HotelFacilities.Core\\HotelFacilities.Core.csproj",
+        "projectName": "HotelFacilities.Core",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\Projects  RelatdTo Working\\Hotel\\FinalHotel\\HotelFacilities.Core\\HotelFacilities.Core.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\Projects  RelatdTo Working\\Hotel\\FinalHotel\\HotelFacilities.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DBContext": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0-preview1-35029, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
